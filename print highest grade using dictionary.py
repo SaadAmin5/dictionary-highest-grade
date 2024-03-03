@@ -11,4 +11,4 @@ print('Highest grade is =', max(dict1.values()))
 print('Subject having highest grade is =', max(dict1, key=dict1.get).capitalize())
 
 #printing both subject with highest grade
-print('Printing both subject with highest grade:',  max(dict1, key=dict1.get).capitalize(), '=', max(dict1.values())) 
+print('Printing both subject and highest grade:',  max(dict1, key=dict1.get).capitalize(), '=', max(dict1.values())) 
